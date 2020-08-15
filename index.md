@@ -1,37 +1,73 @@
-## Welcome to GitHub Pages
+<html>
 
-You can use the [editor on GitHub](https://github.com/kiroba/Bingo-Party-Game/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Cambay' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+<meta charset="utf-8" />
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<title>Bingo</title>
 
-### Markdown
+<link rel="stylesheet" type="text/css" href="bingocss.css" />
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<script type="text/javascript" src="scripts/bingojs.js"></script>
 
-```markdown
-Syntax highlighted code block
+</head>
 
-# Header 1
-## Header 2
-### Header 3
+<body onload="newCard()">
 
-- Bulleted
-- List
+	<div id="container">
+    <div id="header">
+      <h1>Create a BINGO Card</h1>
+    </div>
+	<div id="content">
+		<table id="bingotable">
+			<tr>
+				<th class="orange">B</th>
+				<th class="orange">I</th>
+				<th class="orange">N</th>
+				<th class="orange">G</th>
+				<th class="orange">O</th>
+			</tr>
+			<tr>
+				<td id="square0"> &nbsp;</td>
+				<td id="square1"> &nbsp;</td>
+				<td id="square2"> &nbsp;</td>
+				<td id="square3"> &nbsp;</td>
+				<td id="square4"> &nbsp;</td>
+			</tr>
+			<tr>
+				<td id="square5"> &nbsp;</td>
+				<td id="square6"> &nbsp;</td>
+				<td id="square7"> &nbsp;</td>
+				<td id="square8"> &nbsp;</td>
+				<td id="square9"> &nbsp;</td>
+			</tr>
+			<tr>
+				<td id="square10"> &nbsp;</td>
+				<td id="square11"> &nbsp;</td>
+				<td id="squarefree"> FREE</td>
+				<td id="square12"> &nbsp;</td>
+				<td id="square13"> &nbsp;</td>
+			</tr>
+			<tr>
+				<td id="square14"> &nbsp;</td>
+				<td id="square15"> &nbsp;</td>
+				<td id="square16"> &nbsp;</td>
+				<td id="square17"> &nbsp;</td>
+				<td id="square18"> &nbsp;</td>
+			</tr>
+			<tr>
+				<td id="square19"> &nbsp;</td>
+				<td id="square20"> &nbsp;</td>
+				<td id="square21"> &nbsp;</td>
+				<td id="square22"> &nbsp;</td>
+				<td id="square23"> &nbsp;</td>
+			</tr>
+		</table>
+	</div>
+	
+<p><a href="#" onclick="anotherCard()">Click here</a> to create a new card</p>
 
-1. Numbered
-2. List
+</body>
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kiroba/Bingo-Party-Game/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</html>
